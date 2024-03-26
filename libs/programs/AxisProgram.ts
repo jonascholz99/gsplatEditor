@@ -1,4 +1,7 @@
 import * as SPLAT from "gsplat";
+// import { ShaderProgram } from "../../src/renderers/webgl/programs/ShaderProgram"
+// import { WebGLRenderer } from "../../src/renderers/WebGLRenderer";
+// import { ShaderPass } from "../../src/renderers/webgl/passes/ShaderPass";
 
 const axisVertexShader = /*glsl*/ `#version 300 es
 uniform mat4 projection, view;
